@@ -11,7 +11,16 @@
 
 <body  class="bgimg">
     <div class="header">
-        <div class="listMenu"><i class="bi bi-list" style="font-size:3rem;color:orange"></i></div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="home.html">HOME</a>
+              <a href="buycar.html">BUY CAR</a>
+              <a href="sellcar.html">SELL YOUR CAR</a>
+              <a href="home.html">CONTACT</a>
+            </div>
+          </div>
+          <span onclick="openNav()"> <div class="listMenu"><i class="bi bi-list" style="font-size:3rem;color:orange"></i></div></span>
         <div class="icon1">
             <h2>CAR</h2>
         </div>
@@ -69,6 +78,14 @@
             <a href="thiscar.html"><button>View Details<br>of this car</button></a>
         </div>
     </div>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+          </script>
 </body>
 
 </html>
