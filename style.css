@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;  
+}
+.header {
+    background-color:black;
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.listMenu {
+    float: left;
+    display: block;
+    padding-left: 0;
+    padding-right: 44px;
+    padding-top: 21px;
+}
+
+.icon1 {
+    float: left;
+    display: block;
+    padding: 10px;
+    width: 5%;
+    margin-top: 6px;
+    text-align: right;
+    color:white;
+}
+.icon2 {
+    background-color:orange;
+    float: left;
+    display: block;
+    padding: 0px;
+    width: 5%;
+    height: 60px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.headTab {
+    float: left;
+    display: block;
+    padding: 10px;
+    width: 7%;
+    color: white;
+}
+.headTab:hover{
+    background-color:orange;
+}
+.searchBox{
+    float: left;
+    display: block;
+    width: 25%;
+    padding-top: 28px;
+   
+}
+input,button{
+    font-size: 23px;
+    border-radius: 14px;
+    background-color:darkgray;
+    border-style: none;
+}
+.blank{
+    width: 30%;
+    float: left;
+    display: block;
+    padding: 10px;
+    padding-top: 35px;
+}
+   .car {
+    display: block;
+    float: left;
+    background-color:black;
+    color: #f0f0f0;
+    width: 446px;
+    height: 230px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   .home-car{
+    display: block;
+    float: left;
+    background-color:black;
+    color: #f0f0f0;
+    width: 446px;
+    height: 340px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   .this-car{
+    display: block;
+    float: left;
+    background-color:black;
+    color: #f0f0f0;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   .thisimg{
+    width:550px;
+   }
+   .homeimgg{
+    width:100%;
+   }
+   .carimg{
+    width:447px;
+   }
+   .bgimg{
+    background-image: url('images/homeimg.jpg');
+        background-size: cover; /* Adjust as needed */
+        background-repeat: no-repeat; /* Prevent image repetition */
+        background-attachment: fixed; /* Optional: Fixed or scroll with the content */
+   }
